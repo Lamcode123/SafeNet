@@ -1,0 +1,64 @@
+{
+  "version": "rules_v1",
+  "frozen_on": "2026-10-02",
+  "policy": "A rule fires only when at least one phrase from every required group is present. Rules are intentionally conjunctive to reduce benign financial false positives.",
+  "rules": [
+    {
+      "id": "R_AUTHORITY_COERCION",
+      "groups": [
+        ["công an", "cong an", "viện kiểm sát", "vien kiem sat", "tòa án", "toa an", "hải quan", "hai quan", "cơ quan điều tra", "co quan dieu tra", "vneid"],
+        ["chuyển", "chuyen", "tài khoản tạm giữ", "tai khoan tam giu", "xác minh tài sản", "xac minh tai san", "link", "truy cập", "truy cap", "giữ bí mật", "giu bi mat"]
+      ],
+      "strong": true
+    },
+    {
+      "id": "R_CREDENTIAL_PHISH",
+      "groups": [
+        ["otp", "mật khẩu", "mat khau", "đăng nhập", "dang nhap", "mã xác thực", "ma xac thuc"],
+        ["link", "http", ".com", ".net", ".vip", ".site", "cung cấp", "cung cap", "nhập", "nhap"]
+      ],
+      "strong": true
+    },
+    {
+      "id": "R_TASK_ADVANCE_FEE",
+      "groups": [
+        ["nhiệm vụ", "nhiem vu", "hoa hồng", "hoa hong", "cộng tác viên", "cong tac vien", "ctv", "đánh giá sản phẩm", "danh gia san pham", "thả tim", "tha tim"],
+        ["nạp", "nap", "ứng trước", "ung truoc", "đóng phí", "dong phi", "chuyển", "chuyen", "mở vip", "mo vip"]
+      ],
+      "strong": true
+    },
+    {
+      "id": "R_PRIZE_ADVANCE_FEE",
+      "groups": [
+        ["trúng thưởng", "trung thuong", "nhận quà", "nhan qua", "quà tặng", "qua tang", "voucher", "giải thưởng", "giai thuong"],
+        ["phí", "phi", "thuế", "thue", "chuyển", "chuyen", "đăng nhập", "dang nhap", "link"]
+      ],
+      "strong": true
+    },
+    {
+      "id": "R_EXTORTION",
+      "groups": [
+        ["clip", "ảnh riêng tư", "anh rieng tu", "ảnh nhạy cảm", "anh nhay cam", "video"],
+        ["phát tán", "phat tan", "đăng công khai", "dang cong khai", "gửi cho", "gui cho", "đe dọa", "de doa"],
+        ["chuyển", "chuyen", "thanh toán", "thanh toan", "nộp", "nop", "tiền", "tien"]
+      ],
+      "strong": true
+    },
+    {
+      "id": "R_FAKE_REFUND_SUPPORT",
+      "groups": [
+        ["hoàn tiền", "hoan tien", "thu hồi", "thu hoi", "đơn hàng", "don hang", "chăm sóc khách hàng", "cham soc khach hang", "vận chuyển", "van chuyen"],
+        ["otp", "chia sẻ màn hình", "chia se man hinh", "cài ứng dụng", "cai ung dung", "đăng nhập ngân hàng", "dang nhap ngan hang", "link"]
+      ],
+      "strong": true
+    },
+    {
+      "id": "R_RECRUITMENT_FEE",
+      "groups": [
+        ["tuyển", "tuyen", "trúng tuyển", "trung tuyen", "nhận việc", "nhan viec", "nhân viên", "nhan vien"],
+        ["phí hồ sơ", "phi ho so", "đồng phục", "dong phuc", "đặt cọc", "dat coc", "cọc thiết bị", "coc thiet bi", "phí đào tạo", "phi dao tao", "bảo đảm", "bao dam"]
+      ],
+      "strong": true
+    }
+  ]
+}

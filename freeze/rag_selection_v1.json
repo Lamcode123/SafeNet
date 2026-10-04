@@ -1,0 +1,19 @@
+{
+  "version": "rag_selection_v1",
+  "frozen_on": "2026-10-02",
+  "selected_embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "similarity_threshold": 0.49,
+  "distance_threshold_for_chroma_cosine": 0.51,
+  "selection_basis": "retrieval DEV only: balanced relevant-accept/no-match-reject, then MRR and Recall@1",
+  "test_metrics_reported_after_freeze": {
+    "test_recall_at_1": 0.5555555555555556,
+    "test_recall_at_3": 0.8333333333333334,
+    "test_mrr": 0.6958453583453583,
+    "test_relevant_accept_rate": 0.4722222222222222,
+    "test_no_match_reject_rate": 0.9166666666666666,
+    "test_false_retrieval_rate": 0.08333333333333333,
+    "test_mean_top1_similarity_match": 0.5317283272743225,
+    "test_mean_top1_similarity_no_match": 0.29773855209350586
+  },
+  "semantic_errors": {}
+}

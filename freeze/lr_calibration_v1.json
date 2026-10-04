@@ -1,0 +1,18 @@
+{
+  "version": "lr_gate_v1",
+  "frozen_on": "2026-10-02",
+  "selection_data": "dev_validation.csv only",
+  "benign_threshold": 0.35,
+  "scam_threshold": 0.675,
+  "validation_gate": {
+    "low": 0.35,
+    "high": 0.675,
+    "selective_accuracy": 0.9761904761904762,
+    "coverage": 0.6774193548387096,
+    "decided_n": 42,
+    "has_both_classes": true,
+    "selection_rule": "max_coverage_subject_to_selective_accuracy>=0.95_and_both_classes"
+  },
+  "binary_threshold": 0.5,
+  "note": "Thresholds are frozen before independent_test_v1 evaluation."
+}

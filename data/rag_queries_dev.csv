@@ -1,0 +1,49 @@
+﻿query,expected_scenario,query_type
+Có người xưng công an yêu cầu tôi chuyển tiền vào tài khoản tạm giữ để xác minh.,K01_AUTHORITY,match
+Tin nhắn báo VNeID liên quan vụ án và bắt khai tài sản qua link.,K01_AUTHORITY,match
+Người tự xưng tòa án dọa khóa hồ sơ nếu không nộp tiền ngay.,K01_AUTHORITY,match
+SMS ngân hàng báo giao dịch lạ rồi gửi link để hủy.,K02_BANK_PHISH,match
+Trang lạ yêu cầu nhập OTP để hoàn phí thẻ tín dụng.,K02_BANK_PHISH,match
+Tin nhắn bảo tài khoản ngân hàng sắp khóa và bắt đăng nhập đường dẫn.,K02_BANK_PHISH,match
+Làm nhiệm vụ chốt đơn phải nạp tiền trước rồi mới rút hoa hồng.,K03_TASK,match
+Việc thả tim TikTok yêu cầu ứng tiền để mở cấp VIP.,K03_TASK,match
+CTV đánh giá sản phẩm bị bắt nạp thêm tiền để hoàn tất đơn.,K03_TASK,match
+Bạn tôi nhắn mượn tiền nhưng tài khoản nhận lại là số lạ.,K04_ACCOUNT_TAKEOVER,match
+Video call người thân bị đứng hình rồi họ xin chuyển tiền gấp.,K04_ACCOUNT_TAKEOVER,match
+Tài khoản Facebook bạn bè nhắn vay tiền vì app ngân hàng lỗi.,K04_ACCOUNT_TAKEOVER,match
+Tôi được báo trúng quà nhưng phải đóng phí hồ sơ trước.,K05_PRIZE,match
+Tin nhắn ZaloPay tặng quà yêu cầu đăng nhập trang lạ.,K05_PRIZE,match
+Họ báo trúng xe máy và đòi phí thuế để nhận giải.,K05_PRIZE,match
+Người lạ đe dọa phát tán clip riêng tư nếu tôi không chuyển tiền.,K06_EXTORTION,match
+Họ ghi lại video nhạy cảm rồi tống tiền qua mạng.,K06_EXTORTION,match
+Tin nhắn nói đã hack ảnh cá nhân và đòi tiền chuộc.,K06_EXTORTION,match
+Người gọi biết đúng đơn hàng rồi bảo cài app để hoàn tiền.,K07_ECOM_REFUND,match
+Shop giả nói sản phẩm cần thu hồi và gửi link nhận hoàn tiền.,K07_ECOM_REFUND,match
+Nhân viên sàn yêu cầu OTP để hoàn tiền cho đơn cũ.,K07_ECOM_REFUND,match
+Fanpage khách sạn giá rẻ yêu cầu cọc rồi chặn liên lạc.,K08_TRAVEL,match
+Email giả nền tảng đặt phòng gửi file lạ cho khách sạn.,K08_TRAVEL,match
+Người bán tour thanh lý giá rẻ bắt chuyển khoản toàn bộ trước.,K08_TRAVEL,match
+Tin tuyển dụng bắt đóng phí đồng phục trước khi nhận việc.,K09_RECRUITMENT,match
+Công việc nhập liệu tại nhà yêu cầu cọc tiền thiết bị.,K09_RECRUITMENT,match
+Nhà tuyển dụng đòi phí hồ sơ để cấp mã nhân viên.,K09_RECRUITMENT,match
+"Mua vé concert qua tài khoản lạ, chuyển cọc xong bị chặn.",K10_TICKET,match
+Người bán vé sự kiện giá rẻ bắt thanh toán toàn bộ trước.,K10_TICKET,match
+Pass vé nhưng mã vé giả và người bán biến mất sau chuyển khoản.,K10_TICKET,match
+Người quen qua mạng rủ đầu tư sàn lợi nhuận cao và bắt nạp thêm tiền.,K11_INVESTMENT,match
+Ứng dụng tiền số cho rút thử rồi khóa khi tôi nạp số tiền lớn.,K11_INVESTMENT,match
+Sàn đầu tư lạ hứa lãi chắc chắn mỗi ngày.,K11_INVESTMENT,match
+Dịch vụ cam kết visa không cần phỏng vấn và bắt chuyển cọc vào tài khoản cá nhân.,K12_VISA,match
+Môi giới nói làm đẹp hộ chiếu để xin visa rồi thu tiền trước.,K12_VISA,match
+Người tự xưng nhân viên lãnh sự nhận tiền để cấp visa nhanh.,K12_VISA,match
+Tối nay nhà mình ăn gì?,NO_MATCH,no_match
+Lịch họp phòng đổi sang 9 giờ sáng.,NO_MATCH,no_match
+Tôi đã tự chuyển tiền giữa hai tài khoản của mình.,NO_MATCH,no_match
+Shop ơi đơn hàng của tôi giao ngày nào?,NO_MATCH,no_match
+Thầy cho em xin lịch nộp bài tập.,NO_MATCH,no_match
+Mai đội bóng đá tập ở sân cũ nhé.,NO_MATCH,no_match
+Tôi đã đặt vé tàu trên ứng dụng chính thức.,NO_MATCH,no_match
+Nhân sự gửi bảng lương trong cổng nội bộ.,NO_MATCH,no_match
+Mình đang đọc báo cáo tài chính để học đầu tư.,NO_MATCH,no_match
+Tôi đã đến ngân hàng đổi thẻ trực tiếp.,NO_MATCH,no_match
+Gia đình hẹn cuối tuần về quê.,NO_MATCH,no_match
+Công ty thông báo nghỉ lễ qua email nội bộ.,NO_MATCH,no_match

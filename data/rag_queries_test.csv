@@ -1,0 +1,49 @@
+﻿query,expected_scenario,query_type
+Cán bộ gọi điện nói số điện thoại dính rửa tiền và yêu cầu giữ bí mật.,K01_AUTHORITY,match
+Họ bảo nộp phạt nguội vào tài khoản cá nhân để xử lý nhanh.,K01_AUTHORITY,match
+Người lạ mạo danh viện kiểm sát yêu cầu xác minh tài khoản ngân hàng.,K01_AUTHORITY,match
+Thông báo nhận tiền nhưng phải bấm link xác nhận mới được cộng số dư.,K02_BANK_PHISH,match
+Người gọi tự xưng ngân hàng hỏi mật khẩu và mã OTP.,K02_BANK_PHISH,match
+Email ngân hàng giả yêu cầu cập nhật thông tin đăng nhập.,K02_BANK_PHISH,match
+Nhóm online cho rút nhỏ rồi yêu cầu nạp hàng chục triệu.,K03_TASK,match
+Làm nhiệm vụ nhận hoa hồng nhưng hệ thống cứ bắt đóng thêm phí.,K03_TASK,match
+Tuyển cộng tác viên sàn thương mại điện tử và bắt ứng vốn.,K03_TASK,match
+Người thân báo cấp cứu và yêu cầu chuyển vào tài khoản bác sĩ.,K04_ACCOUNT_TAKEOVER,match
+Có cuộc gọi giống giọng con tôi nhưng thúc chuyển khoản ngay.,K04_ACCOUNT_TAKEOVER,match
+Bạn cũ nhắn bằng tài khoản quen nhưng yêu cầu gửi tiền sang tài khoản mới.,K04_ACCOUNT_TAKEOVER,match
+Shipper nói có quà miễn phí nhưng phải trả khoản phí bất thường.,K05_PRIZE,match
+Thông báo khách hàng may mắn bắt chuyển tiền trước khi nhận thưởng.,K05_PRIZE,match
+Voucher lớn nhưng đường dẫn nhận quà không phải trang chính thức.,K05_PRIZE,match
+Kẻ xấu dọa gửi hình cho đồng nghiệp nếu không thanh toán.,K06_EXTORTION,match
+Tống tiền bằng ảnh nhạy cảm và danh sách bạn bè.,K06_EXTORTION,match
+Đối tượng giả công an cô lập nạn nhân rồi ép gia đình chuyển tiền.,K06_EXTORTION,match
+Bên vận chuyển xin chia sẻ màn hình để xử lý khoản hoàn.,K07_ECOM_REFUND,match
+Cuộc gọi hậu mãi dẫn tôi sang trang lạ để nhập tài khoản ngân hàng.,K07_ECOM_REFUND,match
+Người tự xưng chăm sóc khách hàng yêu cầu thao tác ngân hàng vì đơn lỗi.,K07_ECOM_REFUND,match
+Trang giả khu nghỉ dưỡng yêu cầu đặt cọc vào tài khoản cá nhân.,K08_TRAVEL,match
+Đặt phòng qua fanpage nhưng sau khi chuyển tiền không liên lạc được.,K08_TRAVEL,match
+Email đặt phòng giả có link thanh toán đáng ngờ.,K08_TRAVEL,match
+Việc nhẹ lương cao nhưng phải chuyển tiền bảo đảm.,K09_RECRUITMENT,match
+Được báo trúng tuyển ngay và yêu cầu đóng phí đào tạo.,K09_RECRUITMENT,match
+Công ty lạ thu tiền trước khi gửi hợp đồng lao động.,K09_RECRUITMENT,match
+Tài khoản mới lập rao vé hiếm rẻ hơn thị trường.,K10_TICKET,match
+Đặt cọc vé xem ca nhạc nhưng không nhận được vé điện tử.,K10_TICKET,match
+Người bán dùng ảnh vé của người khác để yêu cầu chuyển tiền.,K10_TICKET,match
+Người môi giới bảo vay tiền để nạp vào nền tảng đầu tư riêng.,K11_INVESTMENT,match
+Tôi bị yêu cầu đóng phí để rút lợi nhuận từ sàn không rõ nguồn gốc.,K11_INVESTMENT,match
+Tài khoản online khoe lợi nhuận và gửi link nạp tiền số.,K11_INVESTMENT,match
+Dịch vụ xuất khẩu lao động không hợp đồng nhưng yêu cầu đóng phí.,K12_VISA,match
+Họ hứa chắc chắn đậu visa nếu nộp thêm phí quan hệ.,K12_VISA,match
+Công ty du học chỉ liên hệ qua Zalo và bắt chuyển tiền trước khi xem hồ sơ.,K12_VISA,match
+Khách sạn xác nhận đặt phòng trong ứng dụng chính thức.,NO_MATCH,no_match
+Tôi gửi biên lai học phí qua cổng sinh viên.,NO_MATCH,no_match
+Mình đang so sánh giá laptop ở vài cửa hàng.,NO_MATCH,no_match
+Hôm qua nhóm ăn hết 600 nghìn và chia đều.,NO_MATCH,no_match
+Tôi tự tạo ticket hỗ trợ trên website chính thức.,NO_MATCH,no_match
+Lớp học chuyển phòng sang B203.,NO_MATCH,no_match
+Mẹ nhờ mua rau khi đi làm về.,NO_MATCH,no_match
+Tôi đã nhận khoản hoàn tiền trong ứng dụng ngân hàng.,NO_MATCH,no_match
+Nhóm nghiên cứu đang thảo luận về blockchain.,NO_MATCH,no_match
+Công ty gửi lịch đào tạo bảo mật nội bộ.,NO_MATCH,no_match
+Bạn tôi gửi ảnh chuyến du lịch hôm trước.,NO_MATCH,no_match
+Mình đặt lịch bảo hành máy tại trung tâm chính hãng.,NO_MATCH,no_match

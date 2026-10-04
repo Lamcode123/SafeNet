@@ -1,0 +1,68 @@
+{
+  "freeze_date": "2026-10-02",
+  "seed": 20261002,
+  "development": {
+    "raw_rows": 500,
+    "unique_rows": 297,
+    "exact_duplicates_removed": 203,
+    "conflicting_texts_removed": 0,
+    "split_counts": {
+      "train": 176,
+      "validation": 62,
+      "scenario_test": 59
+    },
+    "split_label_counts": {
+      "train": {
+        "0": 62,
+        "1": 114
+      },
+      "validation": {
+        "0": 21,
+        "1": 41
+      },
+      "scenario_test": {
+        "0": 21,
+        "1": 38
+      }
+    },
+    "scenario_counts": {
+      "scenario_test|label=0": 4,
+      "scenario_test|label=1": 4,
+      "train|label=0": 9,
+      "train|label=1": 13,
+      "validation|label=0": 3,
+      "validation|label=1": 4
+    }
+  },
+  "independent": {
+    "rows": 160,
+    "labels": {
+      "0": 80,
+      "1": 80
+    },
+    "scenarios": 16,
+    "exact_overlap_with_development": 0,
+    "source_type": "author_curated_synthetic_post_freeze"
+  },
+  "ood_gray": {
+    "rows": 90,
+    "expected_actions": {
+      "BENIGN": 30,
+      "UNCERTAIN": 30,
+      "SCAM": 30
+    },
+    "scenario_types": {
+      "hard_negative_benign": 30,
+      "gray_area": 30,
+      "unseen_scam": 30
+    },
+    "scenarios": 18
+  },
+  "rag": {
+    "knowledge_items": 12,
+    "dev_queries": 48,
+    "test_queries": 48,
+    "no_match_dev": 12,
+    "no_match_test": 12
+  }
+}

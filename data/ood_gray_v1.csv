@@ -1,0 +1,91 @@
+﻿sample_id,text,expected_action,scenario_id,scenario_type,source_type
+OOD_001,"Phí visa được thanh toán tại kênh được công bố trong hồ sơ, mình đã lưu biên lai điện tử.",BENIGN,OOD_B02_VISA_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_002,"Mã OTP 686245 vừa gửi về máy mình, bên kia đang hỏi mã này.",UNCERTAIN,GRAY_G03_OTP,gray_area,author_curated_synthetic_post_freeze
+OOD_003,Nhóm thiện nguyện công khai sao kê và cho phép mọi người xác minh trước khi ủng hộ.,BENIGN,OOD_B04_CHARITY_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_004,"Bộ phận IT yêu cầu đổi mật khẩu trong cổng nội bộ do chính tôi truy cập, không hỏi mật khẩu hiện tại.",BENIGN,OOD_B03_TECH_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_005,"Bạn mình gửi bài nghiên cứu về tiền số để đọc, không có lời mời đầu tư hay đường link nạp tiền.",BENIGN,OOD_B06_CRYPTO_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_006,"Chuyển giúp tao 12 triệu vào tài khoản này nhé, lát tao nói lý do sau.",UNCERTAIN,GRAY_G01_TRANSFER,gray_area,author_curated_synthetic_post_freeze
+OOD_007,"Có SMS nói tài khoản được chọn nhận quà, không ghi rõ cách nhận.",UNCERTAIN,GRAY_G05_PRIZE,gray_area,author_curated_synthetic_post_freeze
+OOD_008,Tôi đã đặt lệnh nhỏ trên ứng dụng của công ty chứng khoán mà mình đăng ký từ trước.,BENIGN,OOD_B01_INVEST_DISCUSS,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_009,"Chuyển khoản giúp mình 3,5 triệu, lát gặp mình giải thích.",UNCERTAIN,GRAY_G01_TRANSFER,gray_area,author_curated_synthetic_post_freeze
+OOD_010,"Môi giới gửi địa chỉ và lịch xem nhà, phí dịch vụ chỉ thanh toán khi giao dịch hoàn tất.",BENIGN,OOD_B05_RENTAL_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_011,Bên môi giới nói có thể làm đẹp hộ chiếu và bảo chuyển 450 nghìn vào tài khoản cá nhân trước khi ký hợp đồng.,SCAM,OOD_S02_VISA,unseen_scam,author_curated_synthetic_post_freeze
+OOD_012,Em đang ở nước ngoài nhưng muốn xây tương lai với anh. Trước tiên anh giúp em nạp 5 triệu vào nền tảng đầu tư này.,SCAM,OOD_S01_ROMANCE_INVEST,unseen_scam,author_curated_synthetic_post_freeze
+OOD_013,"Tôi đang học cách hoạt động của blockchain bằng tài khoản thử nghiệm, không nạp tiền thật.",BENIGN,OOD_B06_CRYPTO_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_014,Có việc khẩn liên quan tài khoản nhưng mình chưa tiện nói qua tin nhắn.,UNCERTAIN,GRAY_G06_URGENT,gray_area,author_curated_synthetic_post_freeze
+OOD_015,Người lạ nói tài khoản email bị hack và yêu cầu cấp quyền remote desktop để sửa ngay.,SCAM,OOD_S03_TECH_SUPPORT,unseen_scam,author_curated_synthetic_post_freeze
+OOD_016,"Tin nhắn nói mình được nhận quà khách hàng, chưa thấy yêu cầu phí hay đường link.",UNCERTAIN,GRAY_G05_PRIZE,gray_area,author_curated_synthetic_post_freeze
+OOD_017,Gia đình đóng góp cho quỹ học bổng của trường qua cổng thanh toán chính thức.,BENIGN,OOD_B04_CHARITY_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_018,"Gọi cho mình ngay khi đọc được tin này, có việc rất gấp.",UNCERTAIN,GRAY_G06_URGENT,gray_area,author_curated_synthetic_post_freeze
+OOD_019,"Bên kia gửi kiemtra-giaodich.net nói là trang xác nhận, bạn xem giúp mình.",UNCERTAIN,GRAY_G02_LINK,gray_area,author_curated_synthetic_post_freeze
+OOD_020,"Nhân viên hỗ trợ nói máy bạn nhiễm virus, yêu cầu cài phần mềm điều khiển từ xa và đăng nhập ngân hàng để kiểm tra.",SCAM,OOD_S03_TECH_SUPPORT,unseen_scam,author_curated_synthetic_post_freeze
+OOD_021,"Một tài khoản Zalo mời cộng tác nhập dữ liệu tại nhà, chưa rõ công ty nào.",UNCERTAIN,GRAY_G04_JOB,gray_area,author_curated_synthetic_post_freeze
+OOD_022,"Sau vài tuần làm quen, người đó rủ mua tiền số qua link riêng và yêu cầu nạp thử 1,2 triệu.",SCAM,OOD_S01_ROMANCE_INVEST,unseen_scam,author_curated_synthetic_post_freeze
+OOD_023,"Họ bảo mình được nhận việc rồi, chi tiết phí và quy trình sẽ gửi sau.",UNCERTAIN,GRAY_G04_JOB,gray_area,author_curated_synthetic_post_freeze
+OOD_024,Một bên báo mình trúng thưởng nhưng bảo sẽ gọi lại hướng dẫn sau.,UNCERTAIN,GRAY_G05_PRIZE,gray_area,author_curated_synthetic_post_freeze
+OOD_025,Tôi đang so sánh ba căn hộ và chưa chuyển cọc cho bên nào.,BENIGN,OOD_B05_RENTAL_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_026,"Người yêu quen qua mạng bảo có kèo đầu tư nội bộ, yêu cầu chuyển 2 triệu sang ví lạ để mở tài khoản VIP.",SCAM,OOD_S01_ROMANCE_INVEST,unseen_scam,author_curated_synthetic_post_freeze
+OOD_027,Thông báo giả cho biết máy tính bị khóa bản quyền; muốn mở phải chuyển 8 triệu và cài công cụ từ link lạ.,SCAM,OOD_S03_TECH_SUPPORT,unseen_scam,author_curated_synthetic_post_freeze
+OOD_028,Có người mời làm việc online thu nhập cao nhưng chưa gửi hợp đồng hay thông tin công ty.,UNCERTAIN,GRAY_G04_JOB,gray_area,author_curated_synthetic_post_freeze
+OOD_029,"Cơ quan mình phát động quyên góp tự nguyện, danh sách và đơn vị tiếp nhận được công bố trong email nội bộ.",BENIGN,OOD_B04_CHARITY_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_030,"Người cho thuê thúc giục cọc ngay vào tài khoản người khác, không ký hợp đồng và không cho xem giấy tờ.",SCAM,OOD_S06_RENTAL,unseen_scam,author_curated_synthetic_post_freeze
+OOD_031,Người tự nhận đại diện quỹ đề nghị nộp phí 12 triệu để được cấp chứng nhận nhà tài trợ rồi mới nhận biên lai.,SCAM,OOD_S04_CHARITY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_032,Hỗ trợ viên không rõ nguồn gốc bảo tải ứng dụng ngoài cửa hàng và nhập mật khẩu ngân hàng để hoàn phí dịch vụ.,SCAM,OOD_S03_TECH_SUPPORT,unseen_scam,author_curated_synthetic_post_freeze
+OOD_033,"Mình đang đọc báo cáo tài chính công ty, chưa quyết định đầu tư và sẽ chỉ giao dịch qua tài khoản chứng khoán chính chủ.",BENIGN,OOD_B01_INVEST_DISCUSS,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_034,Bạn mở link này xác nhận giúp mình nhé: hoantien-donhang.site,UNCERTAIN,GRAY_G02_LINK,gray_area,author_curated_synthetic_post_freeze
+OOD_035,Nhóm kỹ thuật đang thử smart contract trên testnet nên token không có giá trị tiền thật.,BENIGN,OOD_B06_CRYPTO_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_036,Tài khoản Telegram bảo đã tìm thấy ví của kẻ lừa đảo và cần nộp 25 triệu phí gas để thu hồi tiền.,SCAM,OOD_S05_RECOVERY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_037,"Dịch vụ cam kết visa 5 năm không cần phỏng vấn, chỉ cần chuyển cọc 12 triệu hôm nay để giữ suất.",SCAM,OOD_S02_VISA,unseen_scam,author_curated_synthetic_post_freeze
+OOD_038,"Mình nhận lời mời làm thêm, họ hẹn tối mới giải thích cách nhận lương.",UNCERTAIN,GRAY_G04_JOB,gray_area,author_curated_synthetic_post_freeze
+OOD_039,"Muốn chắc chắn đậu visa, họ yêu cầu nộp thêm 1,2 triệu phí quan hệ và không xuất hóa đơn.",SCAM,OOD_S02_VISA,unseen_scam,author_curated_synthetic_post_freeze
+OOD_040,"Mẹ chuyển hộ con 12 triệu vào số này với, con đang bận không nói chuyện được.",UNCERTAIN,GRAY_G01_TRANSFER,gray_area,author_curated_synthetic_post_freeze
+OOD_041,Tôi tự chuyển một khoản nhỏ giữa hai ví của chính mình để kiểm tra mạng lưới.,BENIGN,OOD_B06_CRYPTO_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_042,"Hệ thống bảo cần vào hotro-vneid.info để cập nhật thông tin, mình có nên làm không?",UNCERTAIN,GRAY_G02_LINK,gray_area,author_curated_synthetic_post_freeze
+OOD_043,Tin đăng thuê nhà giá rẻ yêu cầu chuyển 2 triệu trước khi cung cấp địa chỉ cụ thể vì đang ở nước ngoài.,SCAM,OOD_S06_RENTAL,unseen_scam,author_curated_synthetic_post_freeze
+OOD_044,"Có việc gấp, bắn cho mình 450 nghìn rồi mình gọi lại sau.",UNCERTAIN,GRAY_G01_TRANSFER,gray_area,author_curated_synthetic_post_freeze
+OOD_045,"Chủ nhà chỉ gửi ảnh căn hộ, từ chối xem trực tiếp và yêu cầu cọc 25 triệu trong hôm nay để giữ phòng.",SCAM,OOD_S06_RENTAL,unseen_scam,author_curated_synthetic_post_freeze
+OOD_046,Máy lỗi nên tôi mang trực tiếp đến trung tâm bảo hành có phiếu tiếp nhận.,BENIGN,OOD_B03_TECH_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_047,Tôi đã nộp hồ sơ visa trực tiếp trên cổng chính thức và lịch hẹn sinh trắc học đã được xác nhận.,BENIGN,OOD_B02_VISA_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_048,Công ty du học gửi hợp đồng dịch vụ và hóa đơn; gia đình sẽ đến văn phòng kiểm tra trước khi thanh toán.,BENIGN,OOD_B02_VISA_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_049,Tôi nhận được tư vấn đầu tư nhưng sẽ đến chi nhánh xác minh trước khi thực hiện bất kỳ giao dịch nào.,BENIGN,OOD_B01_INVEST_DISCUSS,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_050,Bên bán hàng báo có phần quà tri ân nhưng chưa cung cấp thông tin xác minh.,UNCERTAIN,GRAY_G05_PRIZE,gray_area,author_curated_synthetic_post_freeze
+OOD_051,Tôi tự mở trang hỗ trợ chính thức của hãng và tạo ticket số 345762 cho lỗi máy tính.,BENIGN,OOD_B03_TECH_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_052,Cuộc gọi tự xưng kỹ thuật viên đề nghị bật chia sẻ màn hình rồi đọc mã OTP để xử lý lỗi tài khoản.,SCAM,OOD_S03_TECH_SUPPORT,unseen_scam,author_curated_synthetic_post_freeze
+OOD_053,Tôi đang chuẩn bị giấy tờ visa theo danh sách trên website chính thức của cơ quan lãnh sự.,BENIGN,OOD_B02_VISA_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_054,Mình cần bạn hỗ trợ gấp nhưng chờ mình gửi thêm chi tiết.,UNCERTAIN,GRAY_G06_URGENT,gray_area,author_curated_synthetic_post_freeze
+OOD_055,"Bài đăng dùng ảnh thiên tai cũ, yêu cầu chuyển tiền gấp và chặn mọi câu hỏi về nguồn xác minh.",SCAM,OOD_S04_CHARITY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_056,"Người tự xưng luật sư nói có thể lấy lại tiền đã bị lừa, nhưng yêu cầu đóng trước 2 triệu phí truy hồi.",SCAM,OOD_S05_RECOVERY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_057,"Tin nhắn nói quỹ từ thiện cần đóng góp trong 30 phút để được nhân đôi tiền, kèm số tài khoản riêng.",SCAM,OOD_S04_CHARITY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_058,"Mình chỉ thảo luận biến động thị trường, không nhận tiền đầu tư hộ bất kỳ ai.",BENIGN,OOD_B06_CRYPTO_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_059,"Fanpage mới lập đăng ảnh bệnh nhi và yêu cầu chuyển tiền ngay vào số tài khoản cá nhân, không công bố hồ sơ hay đơn vị tiếp nhận.",SCAM,OOD_S04_CHARITY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_060,Bạn trai online gửi ảnh lợi nhuận và bảo mình vay tiền nạp 5 triệu vào sàn để không bỏ lỡ cơ hội.,SCAM,OOD_S01_ROMANCE_INVEST,unseen_scam,author_curated_synthetic_post_freeze
+OOD_061,"Em gửi anh số tài khoản mới, anh chuyển 8 triệu giúp em trước tối nay nha.",UNCERTAIN,GRAY_G01_TRANSFER,gray_area,author_curated_synthetic_post_freeze
+OOD_062,"Đơn vị quảng cáo đi lao động nước ngoài miễn phỏng vấn, yêu cầu đóng 5 triệu để mở hồ sơ qua Zalo.",SCAM,OOD_S02_VISA,unseen_scam,author_curated_synthetic_post_freeze
+OOD_063,Môi giới giả yêu cầu phí giữ chỗ 8 triệu rồi hẹn sau mới gửi hợp đồng và thông tin căn hộ.,SCAM,OOD_S06_RENTAL,unseen_scam,author_curated_synthetic_post_freeze
+OOD_064,"Tin nhắn có OTP 402143, mình chưa rõ nó thuộc dịch vụ nào.",UNCERTAIN,GRAY_G03_OTP,gray_area,author_curated_synthetic_post_freeze
+OOD_065,"Họ nói cần OTP để hoàn tất giao dịch, mình chưa biết có nên đưa không.",UNCERTAIN,GRAY_G03_OTP,gray_area,author_curated_synthetic_post_freeze
+OOD_066,"Tin tuyển dụng nói làm online không cần kinh nghiệm, chưa thấy địa chỉ hay website chính thức.",UNCERTAIN,GRAY_G04_JOB,gray_area,author_curated_synthetic_post_freeze
+OOD_067,"Mình đang gặp chuyện, lát gửi thông tin rồi nhờ bạn giúp nhé.",UNCERTAIN,GRAY_G06_URGENT,gray_area,author_curated_synthetic_post_freeze
+OOD_068,"Trang web cam kết truy vết tiền số bị mất, bắt nhập seed phrase và đóng 450 nghìn phí kích hoạt.",SCAM,OOD_S05_RECOVERY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_069,"Tài khoản lạ kêu gọi cứu trợ khẩn cấp, thúc giục chuyển 450 nghìn vào tài khoản cá nhân nhưng không có thông tin tổ chức xác minh.",SCAM,OOD_S04_CHARITY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_070,Có người đang gọi hỏi mã xác thực vừa gửi về máy mình.,UNCERTAIN,GRAY_G03_OTP,gray_area,author_curated_synthetic_post_freeze
+OOD_071,"Điện thoại vừa nhận mã 378446, nhưng mình không nhớ đã yêu cầu thao tác gì.",UNCERTAIN,GRAY_G03_OTP,gray_area,author_curated_synthetic_post_freeze
+OOD_072,"Mình được thông báo có quà tặng, hiện chưa biết chương trình nào tổ chức.",UNCERTAIN,GRAY_G05_PRIZE,gray_area,author_curated_synthetic_post_freeze
+OOD_073,"Đại sứ quán thông báo lịch hẹn trong tài khoản hồ sơ của tôi, không yêu cầu chuyển tiền qua cá nhân.",BENIGN,OOD_B02_VISA_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_074,IT công ty sẽ qua tận máy để cài bản vá; họ không yêu cầu tôi đọc mật khẩu hay OTP.,BENIGN,OOD_B03_TECH_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_075,Tôi kiểm tra thông tin quỹ từ thiện trên trang chính thức trước khi chuyển khoản.,BENIGN,OOD_B04_CHARITY_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_076,Có tin nhắn yêu cầu truy cập kiemtra-giaodich.net nhưng không nói rõ đơn vị nào gửi.,UNCERTAIN,GRAY_G02_LINK,gray_area,author_curated_synthetic_post_freeze
+OOD_077,"Kỹ thuật viên nội bộ hướng dẫn cập nhật phần mềm qua kho ứng dụng công ty, không dùng link ngoài.",BENIGN,OOD_B03_TECH_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_078,Tôi ủng hộ qua tài khoản công khai trên website chính thức của tổ chức và nhận biên lai điện tử.,BENIGN,OOD_B04_CHARITY_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_079,"Anh em tối nay bàn thử về quỹ ETF nhé, không ai cần chuyển tiền cho ai cả.",BENIGN,OOD_B01_INVEST_DISCUSS,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_080,"Mình vừa nhận đường dẫn hoantien-donhang.site, họ bảo bấm vào mới xử lý được.",UNCERTAIN,GRAY_G02_LINK,gray_area,author_curated_synthetic_post_freeze
+OOD_081,"Anh nói chuyện với em mấy tháng rồi nên tin em nhé. Nạp 5 triệu vào sàn này để cùng đầu tư, em sẽ chỉ cách rút lãi.",SCAM,OOD_S01_ROMANCE_INVEST,unseen_scam,author_curated_synthetic_post_freeze
+OOD_082,"Tôi đã xem căn hộ trực tiếp, kiểm tra giấy tờ và sẽ ký hợp đồng trước khi đặt cọc.",BENIGN,OOD_B05_RENTAL_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_083,Chủ nhà hẹn mình đến xem phòng chiều mai; chưa ai yêu cầu chuyển tiền trước.,BENIGN,OOD_B05_RENTAL_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_084,"Nhóm học tài chính đang phân tích rủi ro tiền số, mục tiêu là học chứ không kêu gọi góp vốn.",BENIGN,OOD_B01_INVEST_DISCUSS,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_085,"Đừng bỏ qua tin này, tối nay mình cần nhờ một việc quan trọng.",UNCERTAIN,GRAY_G06_URGENT,gray_area,author_curated_synthetic_post_freeze
+OOD_086,"Dịch vụ hỗ trợ nạn nhân hứa hoàn 100% tiền mất nếu chuyển 3,5 triệu để mở hồ sơ điều tra.",SCAM,OOD_S05_RECOVERY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_087,"Căn hộ được quảng cáo thấp hơn thị trường, chủ nhà nói có nhiều người hỏi và phải chuyển 450 nghìn mới được xem nhà.",SCAM,OOD_S06_RENTAL,unseen_scam,author_curated_synthetic_post_freeze
+OOD_088,"Người lạ liên hệ sau vụ lừa cũ, nói có quan hệ với ngân hàng và yêu cầu phí 12 triệu trước khi giải ngân lại.",SCAM,OOD_S05_RECOVERY,unseen_scam,author_curated_synthetic_post_freeze
+OOD_089,Tiền cọc sẽ được ghi rõ trong hợp đồng thuê và thanh toán sau khi hai bên ký.,BENIGN,OOD_B05_RENTAL_LEGIT,hard_negative_benign,author_curated_synthetic_post_freeze
+OOD_090,Người tự xưng nhân viên lãnh sự hứa cấp visa nhanh nếu chuyển 2 triệu vào tài khoản riêng.,SCAM,OOD_S02_VISA,unseen_scam,author_curated_synthetic_post_freeze
