@@ -96,6 +96,6 @@ Independent binary evaluation uses the same frozen 160-message test set for ever
 
 Those runs are engineering diagnostics only.
 
-## Paper title (working)
+## Paper title:
 
 **Design and Evaluation of a Controlled Hybrid Architecture for Vietnamese Scam Detection on CPU-Only Edge Devices**
